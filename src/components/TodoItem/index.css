@@ -7,9 +7,41 @@
   color: #000000;
   margin-right: 25px;
 }
+.checked-title {
+  text-decoration: line-through;
+}
 .button {
   color: #ff0b37;
   border: 2px solid #ff0b37;
   background-color: transparent;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.checkbox-title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkbox {
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.edit-button {
+  margin-right: 10px;
+  color: orange;
+  border-color: orange;
+}
+
+.editing-input{
+  width: 300px;
+  padding: 5px;
+  border: 1.5px solid #000000;
+  padding-left: 10px;
+  border-radius: 3px;
+  outline: none;
 }
